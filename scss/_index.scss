@@ -1,0 +1,19 @@
+.title1 {
+  margin: 0 auto;
+  color: $color-primario;
+  text-align: center;
+}
+.searchBar {
+  max-width: 500px;
+
+  &__Button {
+    background-color: $color-primario;
+    transition: 0.5s ease all;
+    &:hover {
+      background-color: $color-secundario;
+    }
+    &:active {
+      background-color: $color-secundario;
+    }
+  }
+}

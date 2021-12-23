@@ -1,0 +1,21 @@
+.newsTitle {
+  margin: 0 auto;
+  color: $color-primario;
+  text-align: center;
+}
+
+.news {
+  &__Carousel {
+    max-width: 500px;
+  }
+}
+&__Foot {
+  position: relative;
+}
+.newsCard {
+  transition: 0.2s ease all;
+
+  &:hover {
+    transform: translateY(5px);
+  }
+}

@@ -1,0 +1,45 @@
+.signup {
+  &__Tittle {
+    color: $color-primario;
+  }
+  &__Section {
+    margin: 0 auto;
+    margin-top: 25%;
+  }
+  &__Card {
+    background-color: $color-oscuro;
+    &__btn {
+      background-color: $color-primario;
+      transition: 0.5s ease all;
+      &:active {
+        background-color: $color-secundario;
+      }
+      &:hover {
+        background-color: $color-secundario;
+      }
+    }
+  }
+
+  &__Button {
+    background-color: $color-primario;
+    transition: 0.5s ease all;
+    &:active {
+      background: $color-secundario;
+      color: white;
+    }
+    &:hover {
+      transform: scale(1.2);
+      background: $color-secundario;
+    }
+  }
+  &__Text {
+    text-decoration: none;
+    color: white;
+    &:active {
+      color: $color-secundario;
+    }
+    &:hover {
+      color: $color-secundario;
+    }
+  }
+}
